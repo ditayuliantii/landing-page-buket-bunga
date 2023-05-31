@@ -1,0 +1,389 @@
+:root{
+    /* color */
+    --primaryColor : rgb(186, 129, 236);
+    --secondaryColor: #e756ca;
+
+    /* Font */
+    --mainFont: 'Open Sans', sans-serif;
+    --headingFont: 'Merriweather', serif;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--mainFont);
+
+}
+
+
+.heading{
+    font-family: var(--headingFont);
+    font-size: 30px;
+    font-weight: 700;
+}
+.subheading{
+    font-weight: 300;
+}
+
+.section-margin{
+    margin-top: 100px;
+}
+
+/* Navbar */
+.navbar-brand{
+    font-family: var(--headingFont);
+    font-weight: 900;
+}
+
+.navbar{
+    background-color:  #ffcccc;
+}
+
+/* tulisan navbar MY */
+.navbar-brand span{
+    /* color: var(--secondaryColor); */
+    color:#dc72e6 ;
+}
+
+.nav-link{
+    font-family: var(--headingFont);
+    color:#0c5a08 !important;
+}
+
+/* link yang aktif */
+.nav-link.active{
+    font-weight: 700;
+    color: var(--primaryColor);
+}
+
+.icons-home i{
+    font-size: 1.8rem;
+    color: var(--secondaryColor);
+}
+
+/* Home */
+.home{
+    /* background-color: var(--primaryColor); */
+    background-image: url('../img/bunga-kartun.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.bg-image {
+    margin-top: -20px;
+    padding-top: 20px;
+    /* background-color: #d7cccc; */
+}
+
+/* tulisan besar MAKE YOUR.. */
+.home .heading{
+    /* color: var(--secondaryColor); */
+    color: rgb(232, 174, 184);
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+.btn-home .btn-buy{
+    background-color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+
+/* tulisan learn more*/
+.btn-home .btn-learn{
+    border: 2px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+
+/* Service */
+/* tulisan di content our-service */
+.card-service{
+    background-color: var(--primaryColor);
+    color: #fff;
+}
+
+.service-card{
+    background-image: url("../img/utama1.jpg");
+    background-size: cover;
+    background-position: center;
+    border: none;
+}
+
+
+/* tulisan shop */
+.card-service .btn-service{
+   border: 2px solid #fff;
+   color: black;
+   font-family: var(--headingFont);
+   font-weight: 700;
+}
+
+/* tombol shop di our-service */
+.card-service .btn-service:hover{
+    background-color:#fff;
+    color: black
+}
+
+/* banner luar dari promo */
+.banner1{
+    height: 350px;
+}
+
+/* background promo */
+.banner1 .container{
+    background-color: var(--primaryColor);
+    overflow-y: hidden;
+}
+
+.banner1 .btn-banner1{
+    background-color: var(--secondaryColor);
+}
+
+/* gambar di promo */
+.banner1 img{
+    bottom: -60%;
+}
+
+/* Product */
+.product .populer h3{
+    font-size: 22px;
+}
+
+/* warna icon geser produk di our-product */
+.populer i{
+    font-size: 2.5rem;
+    color: var(--secondaryColor);
+
+}
+
+/* kotak keseluruhan produk pada our-product */
+.product-populer .card-product{
+    width: 200px;
+}
+
+/* border produk di our-product */
+.product-populer .img-box{
+    border: 2px solid var(--primaryColor);
+}
+
+.detail{
+    color:rgb(248, 186, 216);
+    font-size: larger;
+    text-align: center;
+}
+
+/* warna tulisan produk di our-product */
+.detail-product .label{
+    background-color: var(--primaryColor);
+    width: 80px;
+    color: #181515;
+}
+
+/* garis di pinggir icon keranjang */
+.detail-product a{
+    border: 2px solid var(--secondaryColor);
+    color: var(--secondaryColor);
+    font-size: 1.8rem;
+}
+
+/* warna icon keranjang saat dipencet, di new-product */
+.detail-product a:hover{
+    background-color: var(--secondaryColor);
+    color: var(--primaryColor);
+}
+
+/* tulisan judul di new-product */
+.new-product .card-title{
+    font-family: var(--headingFont);
+    font-weight: 700;
+    color: #cb54a5;
+}
+
+/* pembungkus keranjang */
+.price-wrapper i{
+    font-size: 1.7rem;   
+}
+
+/* warna icon keranjang sebelum dipencet, di new-product */
+.price-wrapper a{
+    border: 2px solid var(--secondaryColor);
+    /* color: var(--secondaryColor); */
+    color: #e2f60c;
+}
+
+/* warna icon keranjang saat dipencet, di new-product */
+.price-wrapper a:hover{
+   background-color: var(--secondaryColor);
+   /* color: var(--primaryColor); */
+   color: #dc169e;
+}
+
+/* tulisan lead more */
+.btn-load a{
+    background-color: var(--secondaryColor);
+    color: #141313;
+}
+.new-card{
+    display: none;
+}
+
+/* Banner 2 */
+/* promo di bawah lead more */
+.banner2 .banner-wrapper{
+    background-color: #5a5edd;
+}
+
+.banner2 .price{
+    width: 90%;
+}
+
+.banner2 .price p{
+    font-size: 26px;
+}
+
+.banner2 .price .normal{
+    text-decoration: line-through;
+}
+
+.banner2 .price .promo{
+    font-family: var(--headingFont);
+    font-weight: 800;
+    color: var(--secondaryColor);
+}
+
+/* BLog */
+.blog .card-title{
+  font-family: var(--headingFont);
+  font-weight: 700;
+
+}
+
+/* background tombol read more di blog */
+.blog .btn{
+    background-color: #fde49f;
+}
+
+/* Contact */
+/* warna tombol submit */
+form .btn{
+    background-color: #7ce27c;
+
+}
+
+/* Footer  background*/
+.footer{
+    background-color: #ffcccc;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 100px;
+}
+
+/* footer tulisan Garden */
+.footer .footer-brand{
+    color: #fff;
+    font-family: var(--headingFont);
+    font-weight: 900;
+}
+
+/* footer tulisan MY */
+.footer .footer-brand span{
+    color: #dc72e6;
+}
+
+/* hel-nomor telepon */
+.col1 a{
+    color: #383535;
+}
+
+/* icon sosmed footer */
+.icon-footer i{
+    font-size: 2rem;
+    color: var(--secondaryColor);
+}
+
+/* footer judul service, information */
+.col2 h3, .col3 h3, .col4 h3, .col5 h3{
+    color:#0c5a08 ;
+    margin-bottom: 20px;
+    font-family: var(--headingFont);
+    font-weight: 700;
+}
+
+/* field untuk anak dari service, information */
+.col2 ul li, .col3 ul li, .col4 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+/* link dari anak service */
+.col2 a, .col3 a, .col4 a{
+    color:#0c5a08 ;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .home{
+        padding-top: 14rem;
+    }
+    .home .heading{
+       font-size: 36px;
+    }
+    .banner1 img{
+       width: 60%;
+    }
+    .populer i{
+        font-size: 2.9rem;
+       
+    }
+    .banner2 .price{
+        width: 50%;
+    }
+    .blog, .banner2{
+        margin-top: 150px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 992px) {
+    .section-margin{
+        margin-top: 200px;
+    }
+    .home .content-left{
+        padding-bottom: 40px;
+    }
+    .home .heading{
+        font-size: 36px;
+     }
+     .home .subheading{
+        margin-top: 20px;
+        font-size: 16px;
+     }
+     .home img{
+         right: 0;
+         bottom: -20%;
+     }
+     .home .img2{
+         right: 0;
+     }
+     .home .container, .home .row{
+         height: 100%;
+     }
+     .banner1 img{
+       top: 100%;
+     }
+     .banner1{
+        height: 200px;
+    }
+     .banner1 .container{
+       padding: 0 4rem;
+    }
+     
+}
